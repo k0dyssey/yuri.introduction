@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background-color: rgba(200, 200, 200, .2);
+
+}
+
+header h1, header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.container_1 {
+  text-align: center;
+  margin: 0 auto 0;
+  width: 700px;
+}
+
+.title {
+  padding: 10px;
+}
+
+a img {
+  vertical-align: bottom;
+}
+
+.container_2 {
+  background-color:rgba(200, 200, 200, .2);
+}
+
+.summary {
+  padding-bottom: 20px;
+  width: 700px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.summary h1 {
+  margin: 0;
+}
+
+hr {
+  margin: 50px 0 0;
+  border: 1px solid;
+  color: rgba(10, 10, 100, .5)
+}
+
+.container_3 {
+  background-color: rgba(200, 200, 200, .2);
+}
+
+.contents {
+  padding: 10px 0 0;
+  margin: 50px 0;
+}
+
+.contents > h1{
+  text-align: center;
+  margin: 0;
+}
+
+.works {
+  justify-content: center;
+  margin: 16px 0;
+  display: flex;
+  margin: 16px auto 0;
+  flex-wrap: wrap;
+}
+
+.works iframe {
+  vertical-align: bottom;
+}
+
+.links {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: rgba(200, 200, 200, .2);
+}
+
+ul {
+  margin-bottom: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+#btn_y a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#btn_i a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#btn_t a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  background-color: rgba(200, 200, 200, .2);
+}
+
+footer > div {
+  text-align: center;
+  padding: 20px;
+}
